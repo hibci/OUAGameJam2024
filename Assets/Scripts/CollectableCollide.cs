@@ -16,7 +16,7 @@ public class CollectableCollide : MonoBehaviour
     }
 
    
-    void OnCollisionEnter2D(GameObject other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player")){
             _anim.SetBool("collide", true);
