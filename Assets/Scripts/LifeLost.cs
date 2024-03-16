@@ -17,8 +17,9 @@ public class LifeLost : MonoBehaviour
     {
         int _healthLevelLength = _healthSprites.Length;
         // De�di�imiz Nesneye tag ekleyelim
-        if (collision.CompareTag("De�dimiz Engel Nesnesi ise"))
+        if (collision.CompareTag("engel"))
         {
+            Time.timeScale = 0;
             if (_healthLevelLength>0)
             {
                 Destroy(_healthSprites[_healthLevelLength - 1]);
@@ -26,7 +27,7 @@ public class LifeLost : MonoBehaviour
             }
             
         }
-        if (collision.CompareTag("Buraya Collectible Prefab�n �smi Gelecek"))
+        if (collision.CompareTag("collectible"))
         {
           
             int modifiedScore = currentScore;
