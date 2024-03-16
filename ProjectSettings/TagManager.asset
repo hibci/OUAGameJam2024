@@ -6,6 +6,7 @@ TagManager:
   tags:
   - engel
   - collectible
+  - ground
   layers:
   - Default
   - TransparentFX
