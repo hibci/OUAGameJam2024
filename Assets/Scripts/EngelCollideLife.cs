@@ -18,4 +18,10 @@ public class EngelCollideLife : MonoBehaviour
         }
 
     }
+    private void OnCollisionEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player")){
+            SceneManager.LoadScene(_scene.name);
+        }
+    }
 }

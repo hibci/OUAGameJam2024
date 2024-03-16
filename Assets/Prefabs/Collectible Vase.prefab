@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7944435461695612985}
   - component: {fileID: -3564786702666948199}
   - component: {fileID: 1038218001}
+  - component: {fileID: 607241600}
   m_Layer: 0
   m_Name: Collectible Vase
   m_TagString: collectible
@@ -169,3 +170,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &607241600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4432263458347905350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93a65406e65e8344083260e36749f26e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collectible: {fileID: 0}
