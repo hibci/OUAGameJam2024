@@ -9,6 +9,7 @@ public class Spawner : MonoBehaviour
     public float spawnRadius = 5f;
     public int numberOfCollectibles = 10; // Toplanabilir Obje Say�s�
     private Vector2 _randomPositionViewByGizmoz;
+    
      
 
     void Start()
@@ -19,6 +20,7 @@ public class Spawner : MonoBehaviour
             Vector2 randomPosition = Random.insideUnitCircle * spawnRadius;
             _randomPositionViewByGizmoz = randomPosition;
             Instantiate(collectiblePrefab, randomPosition, Quaternion.identity);
+            
         }
     }
 
@@ -26,6 +28,6 @@ public class Spawner : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawSphere(_randomPositionViewByGizmoz, 1f);
+        Gizmos.DrawSphere(_randomPositionViewByGizmoz, 5f);
     }
 }
