@@ -17,7 +17,8 @@ public class ChildBehaviour : MonoBehaviour
     void Update()
     {
         if (Mouse.current.leftButton.wasPressedThisFrame){
-            transform.position += Vector3.right * _rightVelocity * Time.deltaTime;
+            
     }
+    transform.position += Vector3.right * _rightVelocity * Time.deltaTime;
     }
 }
