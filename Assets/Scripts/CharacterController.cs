@@ -7,10 +7,12 @@ public class CharacterController : MonoBehaviour
     
     [SerializeField] private Rigidbody2D rb2d;
     [SerializeField] private float JumpForce = 10f;
+    [SerializeField] private Transform ghost;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform charPos;
     [SerializeField] private float groundDistance = 0.25f;
     [SerializeField] private float JumpTime = 0.3f;
+    [SerializeField] private float bendHeight = 4f;
 
     private bool isGrounded = false;
     private bool isJumping = false;
