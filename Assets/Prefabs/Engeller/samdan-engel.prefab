@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7576594206210199415}
   - component: {fileID: 7576594206210199408}
-  - component: {fileID: 7576594206210199409}
+  - component: {fileID: 1412158029}
+  - component: {fileID: 1412158030}
   m_Layer: 0
   m_Name: samdan-engel
   m_TagString: Untagged
@@ -84,9 +85,9 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!61 &7576594206210199409
-BoxCollider2D:
+  m_SpriteSortPoint: 1
+--- !u!68 &1412158029
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -95,19 +96,33 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.48, y: 0.44}
-    newSize: {x: 0.48, y: 0.44}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.48, y: 0.44}
   m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.008744925, y: 0.21697998}
+  - {x: -0.21507214, y: 0.062982395}
+  - {x: -0.2149222, y: -0.16199479}
+  - {x: -0.0008702767, y: -0.2209265}
+  - {x: 0.20202886, y: -0.16973624}
+  - {x: 0.23042002, y: -0.15229203}
+  - {x: 0.22889385, y: 0.06808221}
+  - {x: -0.002675131, y: 0.219835}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &1412158030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7576594206210199412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef88c19569a30c4fa4656d743250c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

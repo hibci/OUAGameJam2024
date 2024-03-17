@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8152296980763492919}
   - component: {fileID: 8152296980763492916}
-  - component: {fileID: 8152296980763492917}
+  - component: {fileID: 119376847}
+  - component: {fileID: 2238003234235191590}
+  - component: {fileID: 933842297}
   m_Layer: 0
   m_Name: masa-engel
   m_TagString: Untagged
@@ -85,8 +87,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8152296980763492917
-BoxCollider2D:
+--- !u!114 &119376847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152296980763492904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef88c19569a30c4fa4656d743250c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!60 &2238003234235191590
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -108,6 +122,27 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.66, y: 0.37}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.2829328, y: 0.072883084}
+      - {x: 0.33147898, y: 0.07416006}
+      - {x: 0.33147898, y: 0.12355447}
+      - {x: 0.21080643, y: 0.18647902}
+      - {x: -0.20932743, y: 0.18573952}
+      - {x: -0.3307395, y: 0.12577297}
+      - {x: -0.32967383, y: 0.071977235}
+      - {x: -0.27915195, y: 0.07291031}
+      - {x: -0.28234446, y: -0.18429375}
+      - {x: 0.28151262, y: -0.18573952}
+--- !u!114 &933842297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152296980763492904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef88c19569a30c4fa4656d743250c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
