@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2781597392832780658}
   - component: {fileID: 2781597392832780657}
   - component: {fileID: 2781597392832780656}
+  - component: {fileID: 1859340607}
   m_Layer: 0
   m_Name: levelat
-  m_TagString: Untagged
+  m_TagString: ykeden
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,5 +70,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 530ca330b51aaa84985036af1be23275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1859340607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2781597392832780671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae64a047641c69545b892abd61980153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
