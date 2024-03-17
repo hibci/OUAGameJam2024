@@ -2506,8 +2506,8 @@ MonoBehaviour:
   m_text: "\xC7ocuk seninle yakalamaca oynamak istiyor gibi!  Yakalamacaya bay\u0131l\u0131rs\u0131n!
     Hadi plastik top toplayarak bu oyunu daha e\u011Flenceli hale getirelim!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3c90836cbf0915b4bb61862c154c2bf5, type: 2}
-  m_sharedMaterial: {fileID: -342208423974030524, guid: 3c90836cbf0915b4bb61862c154c2bf5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5cb1ec72a5a2194478ea0808151ba020, type: 2}
+  m_sharedMaterial: {fileID: -3807086159901927020, guid: 5cb1ec72a5a2194478ea0808151ba020, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2531,7 +2531,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.4
+  m_fontSize: 39.8
   m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 1
