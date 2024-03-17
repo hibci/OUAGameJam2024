@@ -13,6 +13,8 @@ public class Toplama : MonoBehaviour
         {
             count++;
             Destroy(collision.gameObject);
+            AudioManager.Instance._source.clip = AudioManager.Instance._audioClips[0];
+            AudioManager.Instance._source.Play();
         }
     }
 }
