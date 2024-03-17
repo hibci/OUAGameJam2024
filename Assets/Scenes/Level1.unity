@@ -2102,6 +2102,7 @@ GameObject:
   - component: {fileID: 1375544798}
   - component: {fileID: 1375544799}
   - component: {fileID: 1375544800}
+  - component: {fileID: 1375544801}
   m_Layer: 0
   m_Name: ghost
   m_TagString: Player
@@ -2278,6 +2279,18 @@ PolygonCollider2D:
       - {x: 0.2971859, y: 0.35954252}
       - {x: 0.29686546, y: 0.42186207}
       - {x: 0.2653942, y: 0.42223376}
+--- !u!114 &1375544801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375544795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2cf3e17c3abbc4f8d85b08c2079a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1391536516
 PrefabInstance:
   m_ObjectHideFlags: 0
