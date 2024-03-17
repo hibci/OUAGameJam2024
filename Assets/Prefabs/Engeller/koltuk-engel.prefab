@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5216520025854608072}
   - component: {fileID: 5216520025854608079}
-  - component: {fileID: 5216520025854608073}
   - component: {fileID: 724637739}
   - component: {fileID: 724637744}
   - component: {fileID: 1826220730301628647}
+  - component: {fileID: 529533825}
   m_Layer: 0
   m_Name: koltuk-engel
   m_TagString: Koltuk Engel
@@ -88,32 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5216520025854608073
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5216520025854608075}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.68, y: 0.68}
-    newSize: {x: 0.68, y: 0.68}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.5425329, y: 0.68}
-  m_EdgeRadius: 0
 --- !u!114 &724637739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,7 +110,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -173,6 +147,18 @@ PolygonCollider2D:
       - {x: 0.22925468, y: 0.26181588}
       - {x: 0.21574052, y: 0.29173046}
 --- !u!114 &1826220730301628647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5216520025854608075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef88c19569a30c4fa4656d743250c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &529533825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
