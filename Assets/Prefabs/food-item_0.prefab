@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 7604096969598728632}
   - component: {fileID: 2168159081177502473}
   - component: {fileID: 8739219435214822138}
+  - component: {fileID: 1438031662}
   m_Layer: 0
   m_Name: food-item_0
-  m_TagString: Untagged
+  m_TagString: collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,3 +155,15 @@ PolygonCollider2D:
       - {x: 0.34375, y: -0.21875}
       - {x: 0.34375, y: 0.21875}
       - {x: 0.3125, y: 0.25}
+--- !u!114 &1438031662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3015471736557993532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2cf3e17c3abbc4f8d85b08c2079a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
