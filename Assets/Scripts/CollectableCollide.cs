@@ -20,6 +20,8 @@ public class CollectableCollide : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player")){
             _anim.SetBool("collide", true);
+            AudioManager.Instance._source.clip = AudioManager.Instance._audioClips[0];
+            AudioManager.Instance._source.Play();
             Destroy(_collectible, 1f);
             Debug.Log("collision");
         
